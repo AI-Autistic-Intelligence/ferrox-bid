@@ -1,0 +1,9 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: ferrox-bid
+  threads:
+    virtual:
+      enabled: true # Enable Virtual Threads (Project Loom)
